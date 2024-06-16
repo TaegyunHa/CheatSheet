@@ -52,22 +52,22 @@ tmux kill-server
 
 # Basic Commands
 
-| Command            | Description                 |
-| ------------------ | --------------------------- |
-| `Ctrl+b` `d`       | Detach from current session |
-| `Ctrl+b` `c`       | Create new window           |
-| `Ctrl+b` `&`       | Close window                |
-| `Ctrl+b` `x`       | Close pane                  |
-| `Ctrl+b` `%`       | Split window horizontally   |
-| `Ctrl+b` `"`       | Split window vertically     |
-| `Ctrl+b` `n`       | Switch to next window       |
-| `Ctrl+b` `p`       | Switch to prev window       |
-| `Ctrl+b` `<num>`   | Switch window by index      |
-| `Ctrl+b` `<arrow>` | Switch pane by arrow        |
-| `Ctrl+b` `q<num>`  | Switch pane by index        |
-| `Ctrl+b` `w`       | List sessions               |
-| `Ctrl+b` `s`       | List windows                |
-| `Ctrl+b` `:<cmd>`  | Execute command             |
+| Command               | Description                 |
+| --------------------- | --------------------------- |
+| `Ctrl+b` `d`          | Detach from current session |
+| `Ctrl+b` `c`          | Create new window           |
+| `Ctrl+b` `&`          | Close window                |
+| `Ctrl+b` `x`          | Close pane                  |
+| `Ctrl+b` `%`          | Split window horizontally   |
+| `Ctrl+b` `"`          | Split window vertically     |
+| `Ctrl+b` `n`          | Switch to next window       |
+| `Ctrl+b` `p`          | Switch to prev window       |
+| `Ctrl+b` `<num>`      | Switch window by index      |
+| `Ctrl+b` `<arrow>`    | Switch pane by arrow        |
+| `Ctrl+b` `q<num>`     | Switch pane by index        |
+| `Ctrl+b` `w`          | List sessions               |
+| `Ctrl+b` `s`          | List windows                |
+| `Ctrl+b` `:<command>` | Execute command             |
 
 # Copy & Paste
 

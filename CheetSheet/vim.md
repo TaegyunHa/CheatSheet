@@ -1,16 +1,16 @@
 # Basic
 
-| Cmd | Description            |
-| --- | ---------------------- |
-| w   | To start of next word  |
-| e   | To end of current word |
-| $   | To end of the line     |
-| 0   | To first of the line   |
+| Command | Description            |
+| ------- | ---------------------- |
+| `w`     | To start of next word  |
+| `e`     | To end of current word |
+| `$`     | To end of the line     |
+| `0`     | To first of the line   |
 
 # Horizontal Navigation
 
 
-| Cmd        | Description                        |
+| Command        | Description                        |
 | ---------- | ---------------------------------- |
 | `%`        | move to matching bracket           |
 | `f <char>` | move on to next matching character |
@@ -22,7 +22,7 @@
 
 # Vertical Navigation
 
-| Cmd       | Description            |
+| Command       | Description            |
 | --------- | ---------------------- |
 | `{`       | beginning of paragraph |
 | `}`       | end of paragraph       |
@@ -34,7 +34,7 @@
 
 # Search
 
-| Cmd         | Description                    |
+| Command         | Description                    |
 | ----------- | ------------------------------ |
 | `/ <chars>` | search chars forward           |
 | `? <chars>` | search char backward           |
@@ -45,7 +45,7 @@
 
 # Insert Mode
 
-| Cmd | Description                           |
+| Command | Description                           |
 | --- | ------------------------------------- |
 | `i` | start insert before char              |
 | `I` | start insert at the beginning of line |
@@ -56,19 +56,19 @@
 
 # Advanced
 
-| Cmd       | Description                       |
-| --------- | --------------------------------- |
-| `vi{`     | Select all inside of curly braces |
-| `va{`     | Select all around of curly braces |
-| `viw`     | Select word                       |
-| `viW`     | Select word including space       |
-| `C-g`     | Show location and file status     |
-| `:!<cmd>` | Shell command                     |
+| Command       | Description                       |
+| ------------- | --------------------------------- |
+| `vi{`         | Select all inside of curly braces |
+| `va{`         | Select all around of curly braces |
+| `viw`         | Select word                       |
+| `viW`         | Select word including space       |
+| `C-g`         | Show location and file status     |
+| `:!<command>` | Shell command                     |
 
 # Undo
 
-| Cmd | Description       |
-| --- | ----------------- |
-| u   | Undo last command |
-| U   | Fix a whole line  |
-| C-r | Redo command      |
+| Command | Description       |
+| ------- | ----------------- |
+| `u`     | Undo last command |
+| `U`     | Fix a whole line  |
+| `C-r`   | Redo command      |
