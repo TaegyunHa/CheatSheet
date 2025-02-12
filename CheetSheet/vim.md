@@ -72,3 +72,14 @@
 | `u`     | Undo last command |
 | `U`     | Fix a whole line  |
 | `C-r`   | Redo command      |
+
+# Surround
+
+| Command                | Mode   | Description                                |
+| ---------------------- | ------ | ------------------------------------------ |
+| `ys<motion><char>`     | Normal | Add surround `<char>`                      |
+| `yS<char>`             | Normal | Add surround `<char>` with `\n`            |
+| `yss<char>`            | Normal | Add surround `<char>` for line             |
+| `cs<charFrom><charTo>` | Normal | Change surround `<charFrom>` to `<charTo>` |
+| `ds<char>`             | Normal | Delete surround `<char>`                   |
+| `S<char>`              | Visual | Add surround `<char>`                      |
