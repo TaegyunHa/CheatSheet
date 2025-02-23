@@ -73,6 +73,19 @@
 | `U`     | Fix a whole line  |
 | `C-r`   | Redo command      |
 
+# Custom remap
+| Command | Mode   | Description                     |
+| ------- | ------ | ------------------------------- |
+| `sv`    | Normal | Split window vertically         |
+| `sh`    | Normal | Split window horizontally       |
+| `se`    | Normal | Make split equal size           |
+| `sx`    | Normal | Close current split             |
+| `to`    | Normal | Open new tab                    |
+| `tx`    | Normal | Close current tab               |
+| `tn`    | Normal | Go to next tab                  |
+| `tp`    | Normal | Go to previous tab              |
+| `tf`    | Normal | Open current buffer in next tab |
+
 # Surround
 
 | Command                | Mode   | Description                                |
