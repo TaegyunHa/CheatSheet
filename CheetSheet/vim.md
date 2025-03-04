@@ -73,6 +73,12 @@
 | `U`     | Fix a whole line  |
 | `C-r`   | Redo command      |
 
+# Comment
+| Command | Mode   | Description                      |
+| ------- | ------ | -------------------------------- |
+| `gc`    | Normal | Comment/Uncomment                |
+| `gc`    | Visual | Comment/Uncomment selected block |
+
 # Custom remap
 | Command | Mode   | Description                     |
 | ------- | ------ | ------------------------------- |
