@@ -9,7 +9,6 @@
 
 # Horizontal Navigation
 
-
 | Command        | Description                        |
 | ---------- | ---------------------------------- |
 | `%`        | move to matching bracket           |
@@ -22,7 +21,7 @@
 
 # Vertical Navigation
 
-| Command       | Description            |
+| Command   | Description            |
 | --------- | ---------------------- |
 | `{`       | beginning of paragraph |
 | `}`       | end of paragraph       |
@@ -30,11 +29,12 @@
 | `Ctrl+u`  | half up of the page    |
 | `G`       | bottom of file         |
 | `gg`      | top of file            |
+| `%`       | go to matching bracket |
 | `:<line>` | go to line number      |
 
 # Search
 
-| Command         | Description                    |
+| Command     | Description                    |
 | ----------- | ------------------------------ |
 | `/ <chars>` | search chars forward           |
 | `? <chars>` | search char backward           |
@@ -42,7 +42,15 @@
 | `#`         | search word on cursor backward |
 | `n`         | go forward                     |
 | `N`         | go backward                    |
-
+# Search and Replace
+| Command              | Description                                                      |
+| -------------------- | ---------------------------------------------------------------- |
+| `:s/str1/str2/g`     | Find and replace `str1` with `str2`                              |
+| `:%s/str1/str2/g`    | Find and replace `str1` with `str2` in all lines                 |
+| `:%s/foo/bar/gc`     | Change each `str1` to `str2` with confirmation                   |
+| `:%s/\<foo\>/bar/gc` | Change exact-match `str1` to `str2` with confirmation            |
+| `:%s/foo/bar/gci`    | Change each `str1` to `str2` with confirmation, case-insensitive |
+| `:%s/foo/bar/gcI`    | Change each `str1` to `str2` with confirmation, case-sensitive   |
 # Insert Mode
 
 | Command | Description                           |
