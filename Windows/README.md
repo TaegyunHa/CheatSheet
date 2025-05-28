@@ -38,3 +38,11 @@ Successfully processed 0 files; Failed processing 1 files
 ```
 
 Then, use the Permissions GUI to change ownership to NT Service\TrustedInstaller.
+
+## Prevent installed fonts disappearing after Windows restart
+
+1. Open `%appdata%\..\Local\Microsoft\Windows\Fonts`
+  1. The directory should contain all installed fonts
+2. Press `Ctrl + A` to select all font files
+3. R-Click to open context menu
+4. Press `Install for all users`
