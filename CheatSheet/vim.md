@@ -110,3 +110,7 @@
 | `cs<charFrom><charTo>` | Normal | Change surround `<charFrom>` to `<charTo>` |
 | `ds<char>`             | Normal | Delete surround `<char>`                   |
 | `S<char>`              | Visual | Add surround `<char>`                      |
+## Advanced 2
+| Command | Mode   | Description        |
+| ------- | ------ | ------------------ |
+| `dit`   | Normal | Delete in html tag |
