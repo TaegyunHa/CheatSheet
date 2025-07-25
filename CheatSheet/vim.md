@@ -66,6 +66,7 @@
 
 | Command       | Description                       |
 | ------------- | --------------------------------- |
+| `V`           | Select current line               |
 | `vi{`         | Select all inside of curly braces |
 | `va{`         | Select all around of curly braces |
 | `viw`         | Select word                       |
