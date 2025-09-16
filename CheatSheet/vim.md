@@ -21,16 +21,24 @@
 
 # Vertical Navigation
 
-| Command   | Description            |
-| --------- | ---------------------- |
-| `{`       | beginning of paragraph |
-| `}`       | end of paragraph       |
-| `Ctrl+d`  | half down of the page  |
-| `Ctrl+u`  | half up of the page    |
-| `G`       | bottom of file         |
-| `gg`      | top of file            |
-| `%`       | go to matching bracket |
-| `:<line>` | go to line number      |
+| Command                | Description             |
+| ---------------------- | ----------------------- |
+| `{`                    | beginning of paragraph  |
+| `}`                    | end of paragraph        |
+| `Ctrl+d`               | half down of the page   |
+| `Ctrl+u`               | half up of the page     |
+| `G`                    | bottom of file          |
+| `gg`                   | top of file             |
+| `%`                    | go to matching bracket  |
+| `:<line>`<br>`<line>G` | go to line number       |
+| `zz`                   | centre the current line |
+
+# Other Navigation
+
+| Command  | Description                      |
+| -------- | -------------------------------- |
+| `Ctrl+i` | Move to next cursor location     |
+| `Ctrl+o` | Move to previous cursor location |
 
 # Search
 
@@ -82,6 +90,13 @@
 | `U`     | Fix a whole line  |
 | `C-r`   | Redo command      |
 
+# Bookmark
+
+| Command  | Description       |
+| -------- | ----------------- |
+| `m<key>` | Register bookmark |
+| `'<key>` | Go to bookmark    
+
 # Comment
 | Command | Mode   | Description                      |
 | ------- | ------ | -------------------------------- |
@@ -112,6 +127,8 @@
 | `ds<char>`             | Normal | Delete surround `<char>`                   |
 | `S<char>`              | Visual | Add surround `<char>`                      |
 ## Advanced 2
-| Command | Mode   | Description        |
-| ------- | ------ | ------------------ |
-| `dit`   | Normal | Delete in html tag |
+| Command      | Mode   | Description        |
+| ------------ | ------ | ------------------ |
+| `dit`        | Normal | Delete in html tag |
+| `<leader>d`  | Normal | Open Diagnostic    |
+| `:s/old/new` | Normal | Find and replace   |
