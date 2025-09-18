@@ -95,7 +95,15 @@
 | Command  | Description       |
 | -------- | ----------------- |
 | `m<key>` | Register bookmark |
-| `'<key>` | Go to bookmark    
+| `<key>`  | Go to bookmark    |
+
+# Macro
+
+| Command  | Description              |
+| -------- | ------------------------ |
+| `q<key>` | Register macro           |
+| `q`      | Finish registering macro |
+| `@<key>` | Repeat macro             |
 
 # Comment
 | Command | Mode   | Description                      |
