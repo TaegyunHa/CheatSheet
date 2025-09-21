@@ -1,4 +1,5 @@
-# Install
+# TMUX
+## Install
 
 mac
 ```
@@ -8,14 +9,14 @@ linux
 ```
 apt-get install tmux
 ```
-# tmux layers
+## tmux layers
 ```
 Session Layer
 |- Window Layer
    |- Pane Layer
 ```
 
-# Command line
+## Command line
 
 **Start**
 ```
@@ -50,7 +51,7 @@ Kill all
 tmux kill-server
 ```
 
-# Basic Commands
+## Basic Commands
 
 | Command               | Description                 |
 | --------------------- | --------------------------- |
@@ -69,7 +70,7 @@ tmux kill-server
 | `Ctrl+b` `s`          | List windows                |
 | `Ctrl+b` `:<command>` | Execute command             |
 
-# Copy & Paste
+## Copy & Paste
 
 | Command      | Description |
 | ------------ | ----------- |

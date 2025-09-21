@@ -1,4 +1,4 @@
-# Cluade Cheat Sheet
+# Cluade Code
 
 > https://github.com/https-deeplearning-ai/sc-claude-code-files.git
 
@@ -47,7 +47,7 @@
 ## Thinking
 
 For complex tasks, you can use the word `think` to trigger extended thinking mode.
-There are several levels of thinking: `thin` < `think hard` < `think harder` < `ultrathink`
+There are several levels of thinking: `think` < `think hard` < `think harder` < `ultrathink`
 Each level allocates more thinking budget for Claude.
 
 ## Git Worktree

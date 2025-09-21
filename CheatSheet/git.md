@@ -1,4 +1,5 @@
-# Basic
+# GIT
+## Basic
 
 Discard all submodule changes
 ```bash

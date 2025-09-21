@@ -1,4 +1,4 @@
-# Windows CheatSheet
+# WINDOWS
 
 ## Disable F1 Opening Help
 

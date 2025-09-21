@@ -1,4 +1,6 @@
-# Basic
+# VIM
+
+## Basic
 
 | Command | Description            |
 | ------- | ---------------------- |
@@ -7,7 +9,7 @@
 | `$`     | To end of the line     |
 | `0`     | To first of the line   |
 
-# Horizontal Navigation
+## Horizontal Navigation
 
 | Command        | Description                        |
 | ---------- | ---------------------------------- |
@@ -19,7 +21,7 @@
 | `;`        | next character                     |
 | `,`        | prev character                     |
 
-# Vertical Navigation
+## Vertical Navigation
 
 | Command                | Description             |
 | ---------------------- | ----------------------- |
@@ -33,14 +35,14 @@
 | `:<line>`<br>`<line>G` | go to line number       |
 | `zz`                   | centre the current line |
 
-# Other Navigation
+## Other Navigation
 
 | Command  | Description                      |
 | -------- | -------------------------------- |
 | `Ctrl+i` | Move to next cursor location     |
 | `Ctrl+o` | Move to previous cursor location |
 
-# Search
+## Search
 
 | Command     | Description                    |
 | ----------- | ------------------------------ |
@@ -50,7 +52,7 @@
 | `#`         | search word on cursor backward |
 | `n`         | go forward                     |
 | `N`         | go backward                    |
-# Search and Replace
+## Search and Replace
 | Command              | Description                                                      |
 | -------------------- | ---------------------------------------------------------------- |
 | `:s/str1/str2/g`     | Find and replace `str1` with `str2`                              |
@@ -59,7 +61,7 @@
 | `:%s/\<foo\>/bar/gc` | Change exact-match `str1` to `str2` with confirmation            |
 | `:%s/foo/bar/gci`    | Change each `str1` to `str2` with confirmation, case-insensitive |
 | `:%s/foo/bar/gcI`    | Change each `str1` to `str2` with confirmation, case-sensitive   |
-# Insert Mode
+## Insert Mode
 
 | Command | Description                           |
 | --- | ------------------------------------- |
@@ -70,19 +72,22 @@
 | `o` | start insert bellow line              |
 | `O` | start insert above line               |
 
-# Advanced
+## Advanced
 
-| Command       | Description                       |
-| ------------- | --------------------------------- |
-| `V`           | Select current line               |
-| `vi{`         | Select all inside of curly braces |
-| `va{`         | Select all around of curly braces |
-| `viw`         | Select word                       |
-| `viW`         | Select word including space       |
-| `C-g`         | Show location and file status     |
-| `:!<command>` | Shell command                     |
+| Command       | Mode   | Description                       |
+| ------------- | ------ | --------------------------------- |
+| `V`           | Normal | Select current line               |
+| `vi{`         | Normal | Select all inside of curly braces |
+| `va{`         | Normal | Select all around of curly braces |
+| `viw`         | Normal | Select word                       |
+| `viW`         | Normal | Select word including space       |
+| `C-g`         | Normal | Show location and file status     |
+| `dit`         | Normal | Delete in html tag                |
+| `<leader>d`   | Normal | Open Diagnostic                   |
+| `:s/old/new`  | Normal | Find and replace                  |
+| `:!<command>` |        | Shell command                     |
 
-# Undo
+## Undo
 
 | Command | Description       |
 | ------- | ----------------- |
@@ -90,14 +95,14 @@
 | `U`     | Fix a whole line  |
 | `C-r`   | Redo command      |
 
-# Bookmark
+## Bookmark
 
 | Command  | Description       |
 | -------- | ----------------- |
 | `m<key>` | Register bookmark |
 | `<key>`  | Go to bookmark    |
 
-# Macro
+## Macro
 
 | Command  | Description              |
 | -------- | ------------------------ |
@@ -105,13 +110,13 @@
 | `q`      | Finish registering macro |
 | `@<key>` | Repeat macro             |
 
-# Comment
+## Comment
 | Command | Mode   | Description                      |
 | ------- | ------ | -------------------------------- |
 | `gc`    | Normal | Comment/Uncomment                |
 | `gc`    | Visual | Comment/Uncomment selected block |
 
-# Custom remap
+## Custom remap
 | Command | Mode   | Description                     |
 | ------- | ------ | ------------------------------- |
 | `sv`    | Normal | Split window vertically         |
@@ -124,7 +129,7 @@
 | `tp`    | Normal | Go to previous tab              |
 | `tf`    | Normal | Open current buffer in next tab |
 
-# Surround
+## Surround
 
 | Command                | Mode   | Description                                |
 | ---------------------- | ------ | ------------------------------------------ |
@@ -134,9 +139,3 @@
 | `cs<charFrom><charTo>` | Normal | Change surround `<charFrom>` to `<charTo>` |
 | `ds<char>`             | Normal | Delete surround `<char>`                   |
 | `S<char>`              | Visual | Add surround `<char>`                      |
-## Advanced 2
-| Command      | Mode   | Description        |
-| ------------ | ------ | ------------------ |
-| `dit`        | Normal | Delete in html tag |
-| `<leader>d`  | Normal | Open Diagnostic    |
-| `:s/old/new` | Normal | Find and replace   |
