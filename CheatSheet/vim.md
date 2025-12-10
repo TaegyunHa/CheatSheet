@@ -1,19 +1,35 @@
 # VIM
 
+## Mode
+
+| Command  | Description                        |
+| -------- | ---------------------------------- |
+| `i`      | Insert mode before the cursor      |
+| `I`      | Insert mode from beginning of line |
+| `a`      | Insert mode after the cursor       |
+| `A`      | Insert mode from end of line       |
+| `o`      | Insert mode after new line below   |
+| `O`      | Insert mode after new line above   |
+| `v`      | Visual mode                        |
+| `Ctrl-v` | Visual-block mode                  |
+| `:`      | Command line mode                  |
+| `R`      | Replace mode                       |
+| `Esc`    | Normal mode                        |
+
 ## Basic
 
-| Command | Description            |
-| ------- | ---------------------- |
-| `w`     | To start of next word  |
-| `e`     | To end of current word |
-| `$`     | To end of the line     |
-| `0`     | To first of the line   |
+| Command | Description             |
+| ------- | ----------------------- |
+| `w`     | To start of next word   |
+| `e`     | To end of current word  |
+| `$`     | To end of the line      |
+| `0`     | To first of the line    |
+| `^`     | To first non-blank char |
 
 ## Horizontal Navigation
 
-| Command        | Description                        |
+| Command    | Description                        |
 | ---------- | ---------------------------------- |
-| `%`        | move to matching bracket           |
 | `f <char>` | move on to next matching character |
 | `F <char>` | move on to prev matching character |
 | `t <char>` | move up to next matching character |
@@ -34,6 +50,8 @@
 | `%`                    | go to matching bracket  |
 | `:<line>`<br>`<line>G` | go to line number       |
 | `zz`                   | centre the current line |
+| `(`                    | beginning of sentence   |
+| `)`                    | end of sentence         |
 
 ## Other Navigation
 
@@ -81,8 +99,9 @@
 | `va{`         | Normal | Select all around of curly braces |
 | `viw`         | Normal | Select word                       |
 | `viW`         | Normal | Select word including space       |
-| `C-g`         | Normal | Show location and file status     |
 | `dit`         | Normal | Delete in html tag                |
+| `vif`         | Normal | Select inside function            |
+| `C-g`         | Normal | Show location and file status     |
 | `<leader>d`   | Normal | Open Diagnostic                   |
 | `:s/old/new`  | Normal | Find and replace                  |
 | `:!<command>` |        | Shell command                     |
